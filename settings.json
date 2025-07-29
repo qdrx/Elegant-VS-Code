@@ -12,13 +12,13 @@
   // Disables code folding
   "editor.folding": false,
   // Do not highlight word occurences
-  "editor.occurrencesHighlight": false,
+  "editor.occurrencesHighlight": "off",
   // Don't match brackets
-  "editor.matchBrackets": "never",
+  "editor.matchBrackets": "near",
   // Disable glyph margin
   "editor.glyphMargin": false,
   // Don't show open editors in the Explorer pane
-  "explorer.openEditors.visible": 0,
+  "explorer.openEditors.visible": 9,
   // Disable icons in the tabs
   "workbench.editor.showIcons": false,
   // Hide statusbar
@@ -38,7 +38,9 @@
   // Enable the cool cursive like font variations
   "editor.fontVariations": true,
   // Enables that smooth caret animation, mwah !
-  "editor.cursorBlinking": "phase",
+  "editor.cursorBlinking": "smooth",
+  // Changes cursor shape
+  "editor.cursorStyle": "block",
   // Make the cursor move around the code smoothly
   "editor.cursorSmoothCaretAnimation": "on",
   // Adjusts the line height. Also changes the caret width
@@ -58,11 +60,9 @@
   // Sets the window title 
   "window.title": "${dirty}${activeEditorShort}",
   // Sets icon theme
-  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.iconTheme": "material-icon-theme",
   // Disable indent guides
   "workbench.tree.renderIndentGuides": "none",
-  // Icon theme for the window icons and autocomplete suggestions
-  "workbench.productIconTheme": "material-product-icons",
   // Enables smooth scrolling, a must have 
   "editor.smoothScrolling": true,
   // Disables the close button on tabs, you can enable if you want
@@ -70,5 +70,6 @@
   // Disables the activity bar which allows you to switch between Explorer, Extensions, GitLens etc
   "workbench.activityBar.visible": false,
   // Set syntax theme
-  "workbench.colorTheme": "Community Material Theme Ocean"
+  "workbench.colorTheme": "One Dark Ocean Theme",
+  "material-icon-theme.activeIconPack": "nest"
 }
